@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+
+
+:root{
+    --primary-color : #2a281f;
+    --secundary-color : #916b04;
+    --tertiary-color: #fff;
+}

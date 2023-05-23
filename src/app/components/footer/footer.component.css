@@ -1,0 +1,37 @@
+.container-content-footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-bottom: 2em;
+
+}
+
+.menu-list {
+    border-top: 1px solid #0000002a;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.menu-list li {
+    list-style: none;
+    font-size: .75em;
+    color: var(--secundary-color);
+    margin-top: 2.5em;
+    cursor: pointer;
+}
+
+.main-footer {
+    font-size: .75em;
+    margin-top: .5em;
+}
+
+.span {
+    color: var(--secundary-color);
+    font-weight: bold;
+}

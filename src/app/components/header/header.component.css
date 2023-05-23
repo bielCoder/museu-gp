@@ -1,0 +1,33 @@
+.container-content {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--secundary-color);
+    padding: 1em;
+    padding-bottom: 4em;
+    position: relative;
+}
+
+.logo-title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.span {
+    color: var(--tertiary-color);
+}
+
+.menu-list {
+    display: flex;
+    gap: 1em;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list li:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
